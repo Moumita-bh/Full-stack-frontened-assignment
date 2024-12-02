@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue; /* Set navbar background to blue */
+    padding: 20px 0; /* Increase padding for height adjustment */
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Keep items in a row */
+    gap: 40px; /* Horizontal space between menu items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    list-style: none;
+    margin: 0 15px; /* Add space between menu items */
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding around links */
+    font-size: 18px; /* Increase font size */
+    font-family: 'Arial', sans-serif; /* Change font style */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    color: #ffc107; /* Change color to yellow on hover */
+  }
+  
+  .active-link {
+    text-decoration: underline; /* Highlight active link */
+  }
+  
